@@ -1,0 +1,63 @@
+/* CSS RESET */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* ROOT VARIABLES */
+
+:root{
+/** Color Palette */
+  --color-primary: #0B455B;
+  --color-secodary: #01162F;
+  --color-neutral: #DEDFDE;
+  --color-accent: #D2594B;
+  --color-neutral-secondary: #E0E7D5;
+
+  /** Typography */
+  /* Fonts */
+  --ff-main: 'Inter', sans-serif;
+  --ff-title: 'Frank Ruhl Libre', serif;
+  --ff-sub-title: 'Kodchasan', sans-serif;
+
+  --fs-base: 16px;
+  --line-height-base: 1.5;
+  /* Font-size */
+  --fs-main: 0.8rem;
+  --fs-title: 1.2rem;
+  --fs-sub-title: 1rem;
+  /* Font-weight */
+  --fw-title: 700;
+}
