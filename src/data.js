@@ -1,5 +1,6 @@
 export default [
     {
+        coverImg:"Katie-Zaferes.png",
         rating:5.0,
         reviewCount: 6,
         country: 'USA',
@@ -7,6 +8,7 @@ export default [
         price: "136"
     },
     {
+        coverImg:"Wedding-Photography.png",
         rating:5.0,
         reviewCount: 30,
         country: 'USA',
@@ -14,6 +16,7 @@ export default [
         price: "125"
     },
     {
+        coverImg:"Mountain-Bike.png",
         rating:4.8,
         reviewCount: 2,
         country: 'USA',
