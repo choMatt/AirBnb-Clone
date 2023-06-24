@@ -1,15 +1,15 @@
 export default [
     {
         coverImg:"Katie-Zaferes.png",
-        rating:5.0,
+        rating:4.9,
         reviewCount: 6,
         country: 'USA',
-        cardTitle: "Life lessons witg  Katie Zaferes",
+        cardTitle: "Life lessons with Katie Zaferes",
         price: "136"
     },
     {
         coverImg:"Wedding-Photography.png",
-        rating:5.0,
+        rating:4.7,
         reviewCount: 30,
         country: 'USA',
         cardTitle: "Learn wedding photography",
