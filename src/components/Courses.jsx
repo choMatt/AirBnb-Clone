@@ -9,14 +9,22 @@ function Courses(){
         return (
             <Card  
                 coverImg={card.coverImg}
+                rating={card.rating}
+                reviewCount={card.reviewCount}
+                country={card.country}
+                cardTitle={card.cardTitle}
+                price={card.price}
             />
         )
     })
 
     return (
-        <div className="courses">
-            {cardElements}
+        <div className="course-section">
+            <div className="courses">
+                {cardElements}
+            </div>
         </div>
+
     )
 }
 
